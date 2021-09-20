@@ -14,7 +14,7 @@ curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt(
   $ch, CURLOPT_HTTPHEADER, [
-    'Authorization: Bearer sk_test_e2e54882cc95ff1d206c3cbc6af930acf2932b64']
+    'Authorization: Bearer secret_key']
 );
 
 //send request
